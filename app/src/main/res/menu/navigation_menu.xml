@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/matches"
+        android:title="Matches"
+        android:icon="@mipmap/ic_soccer_black_24dp"/>
+
+    <item android:id="@+id/teams"
+        android:title="Teams"
+        android:icon="@mipmap/baseline_group_black_24"/>
+
+    <item android:id="@+id/groups"
+        android:title="Groups"
+        android:icon="@mipmap/ic_account_group_black_24dp"/>
+
+    <item android:id="@+id/table"
+        android:title="Table"
+        android:icon="@mipmap/baseline_table_chart_black_24"/>
+
+    <item android:id="@+id/stadiums"
+        android:title="Stadiums"
+        android:icon="@mipmap/ic_stadium_black_24dp"/>
+
+
+    <item android:id="@+id/giverate"
+        android:title="Rate App"
+        android:icon="@mipmap/baseline_star_rate_black_24"/>
+
+</menu>
