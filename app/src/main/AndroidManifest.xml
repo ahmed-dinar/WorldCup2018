@@ -18,18 +18,118 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+
         <activity android:name=".WorldCupApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".view.activity.GroupsActivity"
+            android:label="GroupsActivity"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.GroupsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.activity.TeamsActivity"
+            android:label="Teams"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.TeamsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".view.activity.MatchesActivity"
+            android:label="Matches"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MatchesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".view.activity.RefereesActivity"
+            android:label="Refereees"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.RefereesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.activity.StadiumsActivity"
+            android:label="Stadiums"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.StadiumsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".view.activity.TableActivity"
+            android:label="TableActivity"
+            android:parentActivityName=".WorldCupApp">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorldCupApp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.TableActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
 
 
     </application>

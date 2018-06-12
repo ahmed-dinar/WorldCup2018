@@ -23,6 +23,9 @@
         android:title="Stadiums"
         android:icon="@mipmap/ic_stadium_black_24dp"/>
 
+    <item android:id="@+id/referees"
+        android:title="Referees"
+        android:icon="@mipmap/ic_stadium_black_24dp"/>
 
     <item android:id="@+id/giverate"
         android:title="Rate App"
